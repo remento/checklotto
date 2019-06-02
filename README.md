@@ -1,3 +1,17 @@
+# CheckLotto
+
+Checks odds of various lotto games so you can make wise investment decisions.
+
+## Notes
+
+* https://facebook.github.io/create-react-app/docs/documentation-intro
+* https://facebook.github.io/create-react-app/docs/adding-flow
+* https://serverless-stack.com/chapters/code-splitting-in-create-react-app.html
+* https://react-bootstrap.netlify.com/
+* https://jestjs.io/docs/en/expect.html#content
+
+## Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

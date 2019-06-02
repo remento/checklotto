@@ -1,0 +1,43 @@
+{
+  "jsonpURL_PROD" : "https://api.rss2json.com/v1/api.json?callback=checkLotto.jsonpResponseHandler&rss_url=http://www.txlottery.org/export/sites/lottery/rss/tlc_latest.xml",
+  "jsonpURL_DEV": "/fetchLottoData.mockResponse.js",
+  "games": [
+    {
+      "name": "Mega Millions",
+      "rxItem": "(?<gameName>Mega Millions)(?: Estimated Jackpot for )(?<forDate>.*)",
+      "rxJackpot": "(Annuitized: \\$)(?<annuitized>[0-9\\.]*)( )(?<annuitizedScale>Million|Billion)( Cash Value: \\$)(?<cashValue>[0-9\\.]*)( )(?<cashScale>Million|Billion)",
+      "oddsJackpot": 302575350,
+      "ticketPrice": 2,
+      "ticketQty": 1,
+      "about": "Drawings are broadcast each Tuesday and Friday at 10:12 p.m. CT. Ticket sales are not available during Draw Break, from 9:45 - 10:15 p.m. CT. Proceeds from Mega Millions benefit Texas."
+    },
+    {
+      "name": "Mega Millions: Just the Jackpot",
+      "rxItem": "(?<gameName>Mega Millions)(?: Estimated Jackpot for )(?<forDate>.*)",
+      "rxJackpot": "(Annuitized: \\$)(?<annuitized>[0-9\\.]*)( )(?<annuitizedScale>Million|Billion)( Cash Value: \\$)(?<cashValue>[0-9\\.]*)( )(?<cashScale>Million|Billion)",
+      "oddsJackpot":302575350,
+      "ticketPrice": 3,
+      "ticketQty": 2,
+      "about": "Just the Jackpot® is a new wager available to Mega Millions players. Just the Jackpot Play offers 2 chances to win the Mega Millions Grand Prize for $3. Just the Jackpot wagers are eligible for the Mega Millions Grand Prize ONLY! Just the Jackpot wagers are not eligible to win any other prize (non-Grand Prize) in the Mega Millions game."
+    },
+    {
+      "name": "Powerball",
+      "rxItem": "(?<gameName>Powerball)(?: Estimated Jackpot for )(?<forDate>.*)",
+      "rxJackpot": "(Annuitized: \\$)(?<annuitized>[0-9\\.]*)( )(?<annuitizedScale>Million|Billion)( Cash Value: \\$)(?<cashValue>[0-9\\.]*)( )(?<cashScale>Million|Billion)",
+      "oddsJackpot": 292201338,
+      "ticketPrice": 2,
+      "ticketQty": 1,
+      "about": "Drawings are broadcast each Wednesday and Saturday at 10:12 p.m. CT. Ticket sales are not available during Draw Break, from 9:00 - 10:15 p.m. Proceeds from Powerball benefit Texas."
+    },
+    {
+      "name": "Lotto Texas",
+      "rxItem": "(?<gameName>Lotto Texas)(?: Estimated Jackpot for )(?<forDate>.*)",
+      "rxJackpot": "(Annuitized: \\$)(?<annuitized>[0-9\\.]*)( )(?<annuitizedScale>Million|Billion)( Cash Value: \\$)(?<cashValue>[0-9\\.]*)( )(?<cashScale>Million|Billion)",
+      "oddsJackpot": 25827165,
+      "ticketPrice": 1,
+      "ticketQty": 1,
+      "about": "Play Texas’ original jackpot game, Lotto Texas. Just pick 6 numbers from 54. Lotto Texas offers multi-million dollar jackpots with drawings every Wednesday and Saturday at 10:12 p.m. CT. Ticket sales are not available during Draw Break, from 10:02 - 10:15 p.m. CT."
+    }
+    
+  ]
+}

@@ -1,6 +1,12 @@
 {
+  
+  "jsonpServiceURL": "https://api.rss2json.com/v1/api.json",
+  "lottoRSS": "http://www.txlottery.org/export/sites/lottery/rss/tlc_latest.xml",
+
+  "xxxxxxxxxxxxx" : "https://api.rss2json.com/v1/api.json?callback=fetchDataCB.0                  &rss_url=http://www.txlottery.org/export/sites/lottery/rss/tlc_latest.xml",
   "jsonpURL_PROD" : "https://api.rss2json.com/v1/api.json?callback=checkLotto.jsonpResponseHandler&rss_url=http://www.txlottery.org/export/sites/lottery/rss/tlc_latest.xml",
   "jsonpURL_DEV": "/fetchLottoData.mockResponse.js",
+
   "games": [
     {
       "name": "Mega Millions",

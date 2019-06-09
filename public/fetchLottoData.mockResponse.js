@@ -1,5 +1,7 @@
-/* global checkLotto */
-checkLotto.jsonpResponseHandler({
+/* global fetchDataCB */
+// fetchDataCB.cb0 ({...});
+
+fetchDataCB.cb0({
     "status": "ok",
     "feed": {
         "url": "http://www.txlottery.org/export/sites/lottery/rss/tlc_latest.xml",

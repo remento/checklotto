@@ -1,7 +1,7 @@
 // sample callback:
 //checkLotto.jsonpResponseHandler({status:'ok',items:[{"title":"Powerball Estimated Jackpot for 06/05/2019","pubDate":"2019-06-02 05:29:27","link":"https://www.txlottery.org/export/sites/lottery/Games/Powerball/","guid":"https://www.txlottery.org/export/sites/lottery/Games/Powerball/","author":"","thumbnail":"","description":"Annuitized: $40 Million Cash Value: $25.9 Million","content":"Annuitized: $40 Million Cash Value: $25.9 Million","enclosure":{},"categories":[]}]})
 
-import config from './config.json';
+import config from '../config.json';
 //const jsonpURL = config.jsonpURL_DEV; // vs jsonpURL_PROD
 const jsonpURL = config.jsonpURL_PROD;
 const fetchPromise = new Promise((resolve, reject) => {

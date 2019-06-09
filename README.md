@@ -9,6 +9,14 @@ Checks odds of various lotto games so you can make wise investment decisions.
 * https://serverless-stack.com/chapters/code-splitting-in-create-react-app.html
 * https://react-bootstrap.netlify.com/
 * https://jestjs.io/docs/en/expect.html#content
+* https://css-tricks.com/snippets/css/complete-guide-grid/
+* https://www.learnstorybook.com/react/en/get-started
+
+
+## Steps
+1. install create-react-app
+2. npx -p @storybook/cli sb init
+
 
 ## Create React App
 

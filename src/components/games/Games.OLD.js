@@ -15,6 +15,7 @@
 
 
 import React from 'react';
+import styles from './Games.module.css';
 class Games extends React.Component {
   // props.gameData: Promise(data)
   constructor(props) {
@@ -37,10 +38,22 @@ class Games extends React.Component {
     return (
       <div>
         <h1>Check Lotto!</h1>
+
+
+        <div className={styles.container}>
+          <div className={styles.item}>item 1</div>
+          <div className={styles.item}>item 2</div>
+          <div className={styles.item}>item 3</div>
+          <div className={styles.item}>item 4</div>
+          <div className={styles.item}>item 5</div>
+        </div>
+
+
+
         <div style={{textAlign:'left'}}>
           <ul>
             {this.state.games.map((g) =>
-              <li key={g.name}>
+              <li key={g.name} >
                 <h2>{g.name}</h2>
                 <ul style={{textAlign:'left'}}>
                   <li>Prize ${g.annuitized} {g.annuitizedScale}</li>

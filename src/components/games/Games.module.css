@@ -1,0 +1,10 @@
+
+.Games {
+  text-align: center;
+  border: solid 1px green;
+}
+.container{
+  display:grid;
+  border: solid 1px silver;
+}
+.item{}
